@@ -28,6 +28,23 @@
                     <span class="text-danger">{{ $errors->first('name') }}</span>
                 @endif
             </div>
+
+             <div class="form-group">
+                <label class="required" for="photo">Logo</label>
+                <div class="custom-file">
+                  <input type="file" name="image" class="custom-file-input" required>
+                  <label class="custom-file-label" for="imageUploadInput">Uplaod</label>
+              </div>
+            </div>
+
+             <div class="form-group">
+                <label class="required" for="photo">Logo</label>
+                <div class="custom-file">
+                  <input type="file" name="icon" class="custom-file-input"  required>
+                  <label class="custom-file-label" for="imageUploadInput">Uplaod</label>
+              </div>
+            </div>
+
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">
                     save

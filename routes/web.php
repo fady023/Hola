@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoutingController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ServicesController;
 
 ///////////////////// Admin ///////////////////////////
 use App\Http\Controllers\Admin\SettingController;
@@ -25,6 +26,8 @@ use App\Http\Controllers\Admin\PortfolioController;
 */
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
+Route::get('/all-services', [ServicesController::class, 'index'])->name('service');
+
 
 
 Auth::routes();

@@ -33,6 +33,12 @@
                         Name
                     </th>
                     <th>
+                        image
+                    </th>
+                    <th>
+                        icon
+                    </th>
+                    <th>
                         &nbsp;
                     </th>
                 </tr>
@@ -42,6 +48,12 @@
                         <tr>
                             <td>
                                 {{$service->name}}
+                            </td>
+                             <td>
+                                <img src="{{url('services/',$service->image)}}" width="100px" height="100px">
+                            </td>
+                             <td style="background-color: #D2A4A1;">
+                                <img src="{{url('services/',$service->icon)}}" width="24px" height="24px">
                             </td>
                             <td>
                                 <a class="btn btn-info" href="{{route('servicesEdit',['admin','services' ,'edit',$service->id] )}}">

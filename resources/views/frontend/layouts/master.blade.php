@@ -31,8 +31,13 @@
 </head>
 
 <body>
-    @include('frontend.layouts.header')
-    @include('frontend.layouts.message')
+    @if(\Request::route()->getName() != "service")
+        @include('frontend.layouts.header')
+    @else
+        sdsfghjkjhgfd
+        @include('frontend.layouts.header-service')
+    @endif
+
 
     @show
     @yield('content')

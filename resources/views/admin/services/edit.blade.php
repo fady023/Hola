@@ -29,6 +29,45 @@
                     <span class="text-danger">{{ $errors->first('name') }}</span>
                 @endif
             </div>
+            
+            
+             <div class="form-group">
+                <label class="required" for="photo">image</label>
+            <div class="custom-file">
+                <input type="file" name="image" class="custom-file-input" id="imageUploadInput">
+                <label class="custom-file-label" for="imageUploadInput">Upload</label>
+            </div>
+                @error("cover")
+                    <span class="text-danger">{{ $message }}</span>
+                @enderror
+
+            </div>
+            <!-- end cover scope -->
+
+            <div class="img-preview @if(!isset($edit_service->image)) d-none @endif p-2" style="height:100px;border:1px solid #eaeaea">
+                <img src="{{url('services/',$edit_service->image)}}"style="height:100%" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="required" for="photo">icon</label>
+            <div class="custom-file">
+                <input type="file" name="icon" class="custom-file-input" id="imageUploadInput">
+                <label class="custom-file-label" for="imageUploadInput">Upload</label>
+            </div>
+                @error("cover")
+                    <span class="text-danger">{{ $message }}</span>
+                @enderror
+
+            </div>
+            <!-- end cover scope -->
+
+            <div class="img-preview @if(!isset($edit_service->icon)) d-none @endif p-2" style="height:100px;border:1px solid #eaeaea">
+                <img src="{{url('services/',$edit_service->icon)}}"style="height:100%" />
+            </div>
+
+
+
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">
                     save

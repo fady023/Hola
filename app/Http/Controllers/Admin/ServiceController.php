@@ -8,6 +8,7 @@ use App\Models\Service;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Str;
+use Intervention\Image\ImageManagerStatic as Image;
 
 class ServiceController extends Controller
 {
@@ -27,7 +28,33 @@ class ServiceController extends Controller
         $this->validate($request,[
             'name'=>'required',
         ]);
-        
+        $formInput=$request->all();
+
+        if($request->file('image')){
+            $image=$request->file('image');
+            if($image->isValid()){
+                $fileName=time().'-'.Str::slug($request['image'],"-").'.'.$image->getClientOriginalExtension();
+                $small_image_path=public_path('services/'.$fileName);
+    
+                //Resize Image
+                Image::make($image)->resize(411,452)->save($small_image_path);
+                $formInput['image']=$fileName;
+            }
+        }
+
+        if($request->file('icon')){
+            $image=$request->file('icon');
+            if($image->isValid()){
+                $fileName=time().'-'.Str::slug($request['icon'],"-").'.'.$image->getClientOriginalExtension();
+                $small_image_path=public_path('services/'.$fileName);
+    
+                //Resize Image
+                Image::make($image)->resize(24,24)->save($small_image_path);
+                $formInput['icon']=$fileName;
+            }
+        }
+
+
         $services = Service::create($request->all());
       
         return redirect()->route('servicesIndex',['admin','services' ,'index']);
@@ -44,9 +71,32 @@ class ServiceController extends Controller
         $this->validate($request,[
             'name'=>'required',
         ]);
-        $input_data=$request->all();
+        $formInput=$request->all();
 
-        Service::where('id',$request->id)->update($input_data);
+        if($request->file('image')){
+            $image=$request->file('image');
+            if($image->isValid()){
+                $fileName=time().'-'.Str::slug($request['image'],"-").'.'.$image->getClientOriginalExtension();
+                $small_image_path=public_path('services/'.$fileName);
+    
+                //Resize Image
+                Image::make($image)->resize(411,452)->save($small_image_path);
+                $formInput['image']=$fileName;
+            }
+        }
+
+        if($request->file('icon')){
+            $image=$request->file('icon');
+            if($image->isValid()){
+                $fileName=time().'-'.Str::slug($request['icon'],"-").'.'.$image->getClientOriginalExtension();
+                $small_image_path=public_path('services/'.$fileName);
+    
+                //Resize Image
+                Image::make($image)->resize(24,24)->save($small_image_path);
+                $formInput['icon']=$fileName;
+            }
+        }
+        Service::where('id',$request->id)->update($formInput);
 
         return redirect()->route('servicesIndex',['admin','services' ,'index']);
     }

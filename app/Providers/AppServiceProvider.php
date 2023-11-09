@@ -17,6 +17,7 @@ class AppServiceProvider extends ServiceProvider
         //
     }
 
+
     function getTitle(){
         $title=Setting::where(['key' => 'site.title'])->value('value');
         return $title;
