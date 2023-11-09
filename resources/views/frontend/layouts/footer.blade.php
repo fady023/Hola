@@ -16,9 +16,9 @@
                         <div class="col-sm-4 mb-5">
                             <h5 class="text-white text-uppercase mb-4">Our Salon</h5>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white-50 mb-2" href="#">Home</a>
-                                <a class="text-white-50 mb-2" href="#">About Us</a>
-                                <a class="text-white-50 mb-2" href="#">Services</a>
+                                <a class="text-white-50 mb-2" href="/#home">Home</a>
+                                <a class="text-white-50 mb-2" href="/#about">About Us</a>
+                                <a class="text-white-50 mb-2" href="/services">Services</a>
                                 <a class="text-white-50 mb-2" href="#">Price</a>
                                 <a class="text-white-50 mb-2" href="#">Gallery</a>
                                 <a class="text-white-50" href="#">Contact Us</a>
