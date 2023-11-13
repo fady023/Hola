@@ -11,7 +11,7 @@
                     <img src="{{url('services/',$Service_image)}}"style="height:496px" class="img-fluid w-100">
                 </div>
                 <div class="col-lg-4">
-                    <div class="p-4 p-lg-5" style="background-color: #ededed;border-radius: 10px;">
+                    <div class="p-4 p-lg-5" style="background-color: #ededed;border-radius: 10px;margin-top: -140px;">
                             <p style="color:#2F2F2F;border-bottom: 3px solid #dee2e6 !important;">Services Category</p>
                            <div class="row">
                             @foreach($Services as $Service)
