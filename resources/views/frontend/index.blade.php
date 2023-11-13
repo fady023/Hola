@@ -11,11 +11,11 @@
                 <div class="carousel-item position-relative active" style="min-height: 152vh;">
                     <img class="position-absolute w-100 h-152" src="{{ asset('frontend/img/Rectangle 7.png') }}" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;margin: -239px 0px 50px -91px;">
-                            <h8 class="text-white mb-3 animate__animated animate__fadeInDown" > Abu Dhabi , UEA</h8>
+                        <div class="p-3" style="max-width: 900px;margin: 0px 0px 0px -691px;">
+                            <h8 class="text-white mb-3 animate__animated animate__fadeInDown" style="margin-left: -6rem !important;"> Abu Dhabi , UEA</h8>
                             <h3 class="display-3 text-capitalize text-white mb-3">TREATED LIKE</h3>
-                            <h2 class="mx-md-5 px-5" style="text-align: left;font-size: 3rem !important;color: #d2a4a1;">ROYALTY</h2><br>
-                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" style=" margin-left: -255px;font-size: 25px;" href="#">Booking Now</a>
+                            <h2 class="mx-md-5 px-5" style="font-size: 3rem !important;color: #d2a4a1;margin-left: -5rem !important;">ROYALTY</h2><br>
+                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" style="margin-left: -18rem !important;;font-size: 25px;" href="#">Booking Now</a>
                         </div>
                     </div>
                 </div>
