@@ -2,7 +2,7 @@
 @section('title', 'gallery')
 @section('content')
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 <div class="container-fluid py-5">
     <div class="container py-5">
