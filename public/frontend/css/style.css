@@ -9894,6 +9894,7 @@ h6,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: #d2a4a1;
+    text-decoration-line: underline;
 }
 
 
