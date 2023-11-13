@@ -31,13 +31,15 @@
 </head>
 
 <body>
-    @if(\Request::route()->getName() != "service")
+
+    @if(\Request::route()->getName() != "service" )
         @include('frontend.layouts.header')
     @else
-        sdsfghjkjhgfd
         @include('frontend.layouts.header-service')
     @endif
-
+    @if(\Request::route()->getName() == "subservice" )
+        @include('frontend.layouts.header-service')
+    @endif
 
     @show
     @yield('content')

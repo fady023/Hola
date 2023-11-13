@@ -27,6 +27,7 @@ use App\Http\Controllers\Admin\PortfolioController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/all-services', [ServicesController::class, 'index'])->name('service');
+Route::get('/services/sub-services/{id}', [ServicesController::class, 'subservice'])->name('subservice');
 
 
 

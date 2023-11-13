@@ -27,6 +27,7 @@ class ServiceController extends Controller
     {
         $this->validate($request,[
             'name'=>'required',
+            'description'=>'required',
         ]);
         $formInput=$request->all();
 
@@ -70,6 +71,7 @@ class ServiceController extends Controller
     {
         $this->validate($request,[
             'name'=>'required',
+            'description'=>'required',
         ]);
         $formInput=$request->all();
 

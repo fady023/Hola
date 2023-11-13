@@ -29,7 +29,12 @@
                     <span class="text-danger">{{ $errors->first('name') }}</span>
                 @endif
             </div>
-            
+             <div class="form-group mb-3">
+                <label for="product-description">Description <span class="text-danger">*</span></label>
+                <textarea class="form-control" name="description" rows="5" placeholder="Please enter description" required>
+                {{ $edit_service->description }}
+                </textarea>
+            </div>
             
              <div class="form-group">
                 <label class="required" for="photo">image</label>
@@ -62,7 +67,7 @@
             </div>
             <!-- end cover scope -->
 
-            <div class="img-preview @if(!isset($edit_service->icon)) d-none @endif p-2" style="height:100px;border:1px solid #eaeaea">
+            <div class="img-preview @if(!isset($edit_service->icon)) d-none @endif p-2" style="background-color: #D2A4A1;height:100px;border:1px solid #eaeaea">
                 <img src="{{url('services/',$edit_service->icon)}}"style="height:100%" />
             </div>
 

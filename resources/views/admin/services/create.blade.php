@@ -28,7 +28,10 @@
                     <span class="text-danger">{{ $errors->first('name') }}</span>
                 @endif
             </div>
-
+            <div class="form-group mb-3">
+                <label for="product-description">Description <span class="text-danger">*</span></label>
+                <textarea class="form-control" name="description" rows="5" placeholder="Please enter description" required></textarea>
+            </div>
              <div class="form-group">
                 <label class="required" for="photo">Logo</label>
                 <div class="custom-file">

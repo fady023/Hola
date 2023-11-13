@@ -42,7 +42,7 @@ class SubServiceController extends Controller
                 $small_image_path=public_path('subservices/'.$fileName);
     
                 //Resize Image
-                Image::make($image)->resize(808,590)->save($small_image_path);
+                Image::make($image)->resize(390,535)->save($small_image_path);
                 $formInput['image']=$fileName;
             }
         }
@@ -76,7 +76,7 @@ class SubServiceController extends Controller
                 $small_image_path=public_path('subservices/'.$fileName);
     
                 //Resize Image
-                Image::make($image)->resize(808,590)->save($small_image_path);
+                Image::make($image)->resize(390,535)->save($small_image_path);
                 $input_data['image']=$fileName;
             }
         }

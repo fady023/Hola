@@ -23,24 +23,4 @@
     <!-- Navbar End -->
 
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5" id="home">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item position-relative active" style="min-height: 100vh;">
-                    <img class="position-absolute w-100 h-100" src="{{ asset('frontend/img/image 3.png') }}" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-6">
-                            <h6 class="mx-md-5 px-5 display-4 text-capitalize mb-3">&nbsp;</h6>
-                            <h6 class="mx-md-5 px-5 display-4 text-capitalize mb-3">&nbsp;</h6>
-
-                            <h6 class="mx-md-5 px-5 display-4 mb-3" style="color:#fff"><b>We do everything you need in <br>HOLA</b></h6>
-                        </div>
-                    </div>
-                </div>
-              
-            </div>
-        </div>
-    </div>
-    <!-- Carousel End -->
-   
+  
