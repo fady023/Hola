@@ -114,6 +114,16 @@
             <div class="col-lg-6">
 
                 <div class="card-box" style="height: 780px;">
+                 <div class="form-group">
+                    <label for="product-category">Services <span class="text-danger">*</span></label>
+                    <select class="form-control select2 {{ $errors->has('service_id') ? 'is-invalid' : '' }}" name="service_id" id="service_id" required>
+                        @foreach($Services as $Service)
+                    <option value="{{ $Service->id }}" {{($edit_portfolio->service_id==$Service->id)?' selected':''}}>{{ $Service->name }}</option>
+                        @endforeach
+                    </select>
+            </div>
+
+
                     <h5 class="text-uppercase mt-0 mb-3 bg-light p-2">Images</h5>
                     <div class="form-group mb-3">
                         <div class="upload__box">

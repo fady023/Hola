@@ -66,6 +66,14 @@
                         </a>
                     </li>
 
+<li>        
+                    <a href="{{route('contactsIndex',['admin','contacts' ,'index']) }}">
+                        <i data-feather="home"></i>
+                        <span>  Contact Us  </span>
+                    </a>
+                </li>
+               
+
                    
                 <li>        
                     <a href="{{route('settingsIndex',['admin','settings' ,'index']) }}">

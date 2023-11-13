@@ -10,6 +10,8 @@ use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Str;
 use Intervention\Image\ImageManagerStatic as Image;
 use DB;
+use App\Models\Service;
+
 class PortfolioController extends Controller
 {
     public function index(Request $request)
@@ -20,12 +22,14 @@ class PortfolioController extends Controller
 
     public function create()
     {
-        return view('admin.Portfolio.create');
+        $Services = Service::orderBy('id', 'DESC')->get();
+        return view('admin.Portfolio.create', compact('Services'));
     }
 
     public function store(request $request)
     {
 
+        $inputData=$request->all();       
         if($request->file('image')){
             $images=$request->file('image');
             foreach ($images as $image){
@@ -38,8 +42,8 @@ class PortfolioController extends Controller
                     Image::make($image)->resize(525,328)->save($small_image_path);
                     $inputData['image']=$filename;
                     
-                    DB::insert('insert into portfolio (image) 
-                    values (?)', [$inputData['image']]);
+                    DB::insert('insert into portfolio (image,service_id) 
+                    values (?,?)', [$inputData['image'],$inputData['service_id']]);
                     
                 }
             }
@@ -51,8 +55,9 @@ class PortfolioController extends Controller
     public function edit(request $request)
     {
         $edit_portfolio=Portfolio::findOrFail($request->id);
+        $Services = Service::orderBy('id', 'DESC')->get();
 
-        return view('admin.portfolio.edit', compact('edit_portfolio'));
+        return view('admin.portfolio.edit', compact('edit_portfolio','Services'));
     }
 
     public function update(request $request)

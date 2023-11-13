@@ -25,6 +25,7 @@
     <link href="{{ asset('frontend/lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('frontend/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('frontend/css/style.css') }}" rel="stylesheet">
@@ -40,6 +41,13 @@
     @if(\Request::route()->getName() == "subservice" )
         @include('frontend.layouts.header-service')
     @endif
+     @if(\Request::route()->getName() == "gallery" )
+        @include('frontend.layouts.header-service')
+    @endif
+     @if(\Request::route()->getName() == "contact" )
+        @include('frontend.layouts.header-service')
+    @endif
+    
 
     @show
     @yield('content')
@@ -56,6 +64,9 @@
     <script src="{{ asset('frontend/lib/tempusdominus/js/moment.min.js') }}"></script>
     <script src="{{ asset('frontend/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
     <script src="{{ asset('frontend/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+    <script src="{{ asset('frontend/lib/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <script src="{{ asset('frontend/lib/jquery/jquery.min.js') }}"></script>
 
     <!-- Contact Javascript File -->
     <script src="{{ asset('frontend/mail/jqBootstrapValidation.min.js') }}"></script>

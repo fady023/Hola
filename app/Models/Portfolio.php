@@ -20,6 +20,11 @@ class Portfolio extends Model
     ];
 
     protected $fillable = [
-        'image'
+        'image',
+        'service_id'
     ];
+
+    public function service(){
+        return $this->belongsTo(Service::class,'service_id','id');
+    }
 }

@@ -5,13 +5,14 @@ use App\Http\Controllers\RoutingController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\GalleryController;
 
 ///////////////////// Admin ///////////////////////////
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\Admin\SubServiceController;
 use App\Http\Controllers\Admin\PortfolioController;
-
+use App\Http\Controllers\Admin\ContactController;
 
 
 /*
@@ -28,7 +29,12 @@ use App\Http\Controllers\Admin\PortfolioController;
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/all-services', [ServicesController::class, 'index'])->name('service');
 Route::get('/services/sub-services/{id}', [ServicesController::class, 'subservice'])->name('subservice');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
 
+
+Route::get('/gallery/{id}', [GalleryController::class, 'getId'])->name('getId');
+Route::get('/contact', [IndexController::class, 'contact'])->name('contact');
+Route::post('postcontact', [IndexController::class, 'postcontact'])->name('postcontact');
 
 
 Auth::routes();
@@ -65,6 +71,14 @@ Route::group(['prefix'=>'dashboard','middleware'=>['auth','is_admin']],function 
     Route::POST('{first}/{second}/{third}/portfolio/update', [PortfolioController::class, 'update'])->name('portfolioUpdate');
     Route::get('{first}/{second}/{third}/portfolio/destroy/{id}', [PortfolioController::class, 'destroy'])->name('portfolioDestroy');
         
+    //////////////////  Contacts ///////////////////
+    Route::get('{first}/{second}/{third}/contacts', [ContactController::class, 'index'])->name('contactsIndex');
+    Route::get('{first}/{second}/{third}/contacts/create', [ContactController::class, 'create'])->name('contactsCreate');
+    Route::post('{first}/{second}/{third}/contacts/store', [ContactController::class, 'store'])->name('contactsStore');
+    Route::get('{first}/{second}/{third}/contacts/show', [ContactController::class, 'show'])->name('contactsShow');
+    Route::get('{first}/{second}/{third}/contacts/edit/{id}', [ContactController::class, 'edit'])->name('contactsEdit');
+    Route::POST('{first}/{second}/{third}/contacts/update', [ContactController::class, 'update'])->name('contactsUpdate');
+    Route::get('{first}/{second}/{third}/contacts/destroy/{id}', [ContactController::class, 'destroy'])->name('contactsDestroy');
 
     ////////////////// settings ///////////////////
     Route::get('{first}/{second}/{third}/settings', [SettingController::class, 'index'])->name('settingsIndex');

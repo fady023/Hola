@@ -12,11 +12,10 @@
                     <a href="#home" class="nav-item nav-link active">Home</a>
                     <a href="#about" class="nav-item nav-link">About Us</a>
                     <a href="/all-services" class="nav-item nav-link">Services</a>
-                    <a href="#" class="nav-item nav-link">Price</a>
-                    <a href="#" class="nav-item nav-link">Gallery</a>
-                    <a href="#" class="nav-item nav-link">Contact</a>
+                    <a href="/gallery" class="nav-item nav-link">Gallery</a>
+                    <a href="/contact" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="tel:+971506221031"><img src="{{ asset('frontend/img/Group 1.png') }}" alt="" title="">+971506221031</a>
+                <a href="tel:{{ $phone }}"><img src="{{ asset('frontend/img/Group 1.png') }}" alt="" title="">{{ $phone }}</a>
             </div>
         </nav>
     </div>
