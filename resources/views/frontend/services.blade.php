@@ -27,12 +27,12 @@
 <div class="container-fluid px-0 py-5 my-5">
     <div class="row mx-0 justify-content-center text-center">
         <div class="col-lg-6">
-            <h2 class="d-inline-block py-1 px-2" style="color: #d2a4a1;text-align: left;font-style: italic;">
+            <h2 class="d-inline-block py-1 px-2" style="color: #d2a4a1;margin-left: -6rem !important;font-style: italic;margin-left: -6rem !important;">
                 Exclusive Services at<br> Our Salon.
             </h2>
         </div>
         <div class="col-lg-6">
-            <h8 class="d-inline-block py-1 px-2" style="text-align: left;">
+            <h8 class="d-inline-block py-1 px-2" style="text-align: left;margin-left: -12rem !important;">
                 Lorem ipsum dolor sit amet consectetur.<br>
                 Libero augue convallis amet scelerisque iaculis blandit.<br>
                 Diam gravida dignissim viverra convallis massa neque integer tortor maecenas.<br>
