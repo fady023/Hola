@@ -37,10 +37,10 @@
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="col-lg-6">
-            <h4 class="mb-2"><img src="{{url('services/',$Service_icon)}}" style="height:24px;background-color: #D2A4A1;" class="img-fluid w-10">&nbsp;&nbsp;{{ $Service_name }}</h4>
+            <h4 class="mb-2" style="margin-left: -1rem !important;"><img src="{{url('services/',$Service_icon)}}" style="height:24px;background-color: #D2A4A1;" class="img-fluid w-10">&nbsp;&nbsp;{{ $Service_name }}</h4>
         </div>
          <div class="col-lg-6">
-            <p class="mb-5">{{ $Service_description }}</p>
+            <p class="mb-5" style="margin-left: -1rem !important;">{{ $Service_description }}</p>
         </div>
         <div class="row">
             @foreach($SubServices as $SubService)
