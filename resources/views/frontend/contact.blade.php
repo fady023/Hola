@@ -8,8 +8,8 @@
 
 <div class="container-fluid px-0 py-5 my-5">
     <div class="row mx-0 justify-content-center text-center">
-      <div class="col-lg-6">
-            <img src="{{ asset('frontend/img/Rectangle 59.png') }}" style="height:519px" class="img-fluid w-100">
+      <div class="col-lg-5">
+            <img src="{{ asset('frontend/img/Rectangle 59.png') }}" style="height:400px" class="img-fluid w-100">
         </div>
 
         <div class="col-lg-6">
