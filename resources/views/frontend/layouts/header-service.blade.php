@@ -1,6 +1,6 @@
  <!-- Navbar Start -->
     <div class=" container-fluid p-0" style="margin-top: 23px;">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5" style="background-color: #fff;" >
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5" style="background-color: #fff;padding-left: 9rem !important;padding-right: 10rem !important;">
                         <a href="/#home" class="nav-item nav-link active">
                            <img  src="{{ asset('frontend/img/logo.png') }}" class="m-0 text-primary" alt="" title="">
 </a>

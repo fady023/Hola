@@ -4,7 +4,7 @@
 
 <br><br><br>
 
-<div class="container-fluid py-5">
+<div class="container-fluid py-5" style="    padding-left: 5rem !important;">
 
 <div class="container-fluid px-0 py-5 my-5">
     <div class="row mx-0 justify-content-center text-center">
@@ -28,7 +28,7 @@
             </p> <br>
             
 <div class="col-lg-8">
-                    <div class="contact-form" style=" margin-left: -16px;">
+                    <div class="contact-form" style=" margin-left: -16px;margin-right: -149px;">
                         <div id="success">
                          @if (session()->has('message'))
                         <div class="alert alert-success alert-dismissible">
