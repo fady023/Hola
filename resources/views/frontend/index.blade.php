@@ -90,7 +90,116 @@
 </div>
 
 
-<br>
+
+<section class="py-5" style="height: 800px;background-color: #EDEDED;">
+    <h5 style="text-align: center;color: #B28886;font-size: 2.4rem;font-style: italic;">Testimonials</h5><br>
+        <h5 style="text-align: center;font-size: 2.4rem;">What Our Clients Say</h5><br><br><br><br>
+
+    <div class="container py-5">
+            <div class="row">
+                <div class="cards col-lg-5">
+                <i class="fa fa-3x fa-quote-left text-primary position-absolute" style="top: -65px; left: 27px;color: #b28886 !important;text-decoration: none;font-size: 30px;"></i>
+                    <div class="card active" data-id="content1">
+                        <img src="{{ asset('frontend/testimonials/Ellipse 4.png') }}" alt="">
+                        <div>
+                            <h3>Juliana Murad</h3>
+                            <p>Sales Marketing</p>
+                        </div>
+                        <div class="gradient"></div>
+                    </div>
+                    <div class="card" data-id="content2">
+                        <img src="{{ asset('frontend/testimonials/Ellipse 5.png') }}" alt="">
+                        <div>
+                            <h3>Juliana Murad</h3>
+                            <p>Sales Marketing</p>
+                        </div>
+                        <div class="gradient"></div>
+                    </div>
+                    <div class="card" data-id="content3">
+                        <img src="{{ asset('frontend/testimonials/Ellipse 6.png') }}" alt="">
+                        <div>
+                            <h3>Juliana Murad</h3>
+                            <p>Sales Marketing</p>
+                        </div>
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+                <div class="content col-lg-7">
+                    <div class="contentBox active" id="content1">
+                        <div class="text">
+                            <h2>Great collaboration</h2>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iure possimus harum quisquam praesentium ipsum accusantium, facilis omnis, blanditiis quas soluta nihil incidunt laboriosam dicta maiores, modi quaerat consectetur officia accusamus libero aut molestiae fuga eveniet quidem? Modi obcaecati, beatae officia odio nihil minus voluptatem quidem consequatur ad rem blanditiis? Natus iure possimus harum quisquam praesentium ipsum accusantium, facilis omnis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius odit at aliquid, reprehenderit repellendus quo vero nam cumque incidunt iusto optio molestias facilis eum corrupti dolorum rem nemo. Nulla id incidunt ullam voluptate recusandae.</p>
+                        </div>
+                    </div>
+                    <div class="contentBox" id="content2">
+                        <div class="text">
+                            <h2>It was a great experience!</h2>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iure possimus harum quisquam praesentium ipsum accusantium, facilis omnis, blanditiis quas soluta nihil incidunt laboriosam dicta maiores, modi quaerat consectetur officia accusamus libero aut molestiae fuga eveniet quidem? Modi obcaecati, beatae officia odio nihil minus voluptatem quidem consequatur ad rem blanditiis? Natus iure possimus harum quisquam praesentium ipsum accusantium, facilis omnis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius odit at aliquid, reprehenderit repellendus quo vero nam cumque incidunt iusto optio molestias facilis eum corrupti dolorum rem nemo. Nulla id incidunt ullam voluptate recusandae.</p>
+                        </div>
+                    </div>
+                    <div class="contentBox" id="content3">
+                        <div class="text">
+                            <h2>
+                                Quickly and Efficiently</h2>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iure possimus harum quisquam praesentium ipsum accusantium, facilis omnis, blanditiis quas soluta nihil incidunt laboriosam dicta maiores, modi quaerat consectetur officia accusamus libero aut molestiae fuga eveniet quidem? Modi obcaecati, beatae officia odio nihil minus voluptatem quidem consequatur ad rem blanditiis? Natus iure possimus harum quisquam praesentium ipsum accusantium, facilis omnis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius odit at aliquid, reprehenderit repellendus quo vero nam cumque incidunt iusto optio molestias facilis eum corrupti dolorum rem nemo. Nulla id incidunt ullam voluptate recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 
 
 <div class="container-fluid py-5">
@@ -123,4 +232,23 @@
     </div>
 </div>
 
+<script>
+    let card = document.querySelectorAll(".card");
+    let contentBox = document.querySelectorAll(".contentBox");
+
+    for (let i = 0; i < card.length; i++) {
+        card[i].addEventListener("mouseover", function() {
+            for (let i = 0; i < contentBox.length; i++) {
+                contentBox[i].className = "contentBox";
+            }
+            document.getElementById(this.dataset.id).className = "contentBox active";
+
+            for (let i = 0; i < card.length; i++) {
+                card[i].className = "card";
+            }
+            this.className = "card active";
+        });
+    }
+
+</script>
 @endsection
