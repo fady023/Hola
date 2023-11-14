@@ -23,7 +23,7 @@
             </p> <br>
             
 <div class="col-lg-8">
-                    <div class="contact-form">
+                    <div class="contact-form" style=" margin-left: -16px;">
                         <div id="success">
                          @if (session()->has('message'))
                         <div class="alert alert-success alert-dismissible">
@@ -48,7 +48,7 @@
                                 <textarea class="form-control border-1 py-3 px-4" rows="3" name="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                 <p></p>
                             </div>
-                            <div class="control-group">
+                            <div class="control-group" style="margin-left: 26rem !important;">
                                 <button style="background-color: #000;" class="btn btn-primary py-3 px-4" type="submit">Send Message</button>
                             </div>
                         </form>

@@ -32,23 +32,15 @@
 </head>
 
 <body>
-
-    @if(\Request::route()->getName() != "service" )
-        @include('frontend.layouts.header')
+    @if(\Request::route()->getName() == "index" )
+         @include('frontend.layouts.header')
     @else
         @include('frontend.layouts.header-service')
     @endif
-    @if(\Request::route()->getName() == "subservice" )
-        @include('frontend.layouts.header-service')
-    @endif
-     @if(\Request::route()->getName() == "gallery" )
-        @include('frontend.layouts.header-service')
-    @endif
-     @if(\Request::route()->getName() == "contact" )
-        @include('frontend.layouts.header-service')
-    @endif
-    
 
+  
+
+       
     @show
     @yield('content')
     @include('frontend.layouts.footer')

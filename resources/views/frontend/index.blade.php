@@ -4,28 +4,28 @@
 
 
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5" id="home">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item position-relative active" style="min-height: 152vh;">
-                    <img class="position-absolute w-100 h-152" src="{{ asset('frontend/img/Rectangle 7.png') }}" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;margin: 0px 0px 0px -691px;">
-                            <h8 class="text-white mb-3 animate__animated animate__fadeInDown" style="margin-left: -6rem !important;"> Abu Dhabi , UEA</h8>
-                            <h3 class="display-3 text-capitalize text-white mb-3">TREATED LIKE</h3>
-                            <h2 class="mx-md-5 px-5" style="font-size: 3rem !important;color: #d2a4a1;margin-left: -5rem !important;">ROYALTY</h2><br>
-                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" style="margin-left: -18rem !important;;font-size: 25px;" href="#">Booking Now</a>
-                        </div>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5 pb-5" id="home">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item position-relative active" style="min-height: 152vh;">
+                <img class="position-absolute w-100 h-152" src="{{ asset('frontend/img/Rectangle 7.png') }}" style="object-fit: cover;">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;margin: 0px 0px 0px -691px;">
+                        <h8 class="text-white mb-3 animate__animated animate__fadeInDown" style="margin-left: -6rem !important;"> Abu Dhabi , UEA</h8>
+                        <h3 class="display-3 text-capitalize text-white mb-3">TREATED LIKE</h3>
+                        <h2 class="mx-md-5 px-5" style="font-size: 3rem !important;color: #d2a4a1;margin-left: -5rem !important;">ROYALTY</h2><br>
+                        <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" style="margin-left: -18rem !important;;font-size: 25px;" href="#">Booking Now</a>
                     </div>
                 </div>
-              
             </div>
+
         </div>
     </div>
-    <!-- Carousel End -->
+</div>
+<!-- Carousel End -->
 
-    
+
 <div class="container-fluid px-0 py-5 my-5" id="about">
     <div class="row mx-0 justify-content-center text-center">
         <div class="col-lg-8">
@@ -34,7 +34,7 @@
     </div>
 </div><br>
 
-<div class="container-fluid py-5" >
+<div class="container-fluid py-5">
     <div class="container py-5">
         <div class="row">
 
@@ -89,20 +89,21 @@
     </div>
 </div>
 
+
 <br>
 
 
 <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row justify-content-center bg-appointment mx-0" style="height: 285px;">
-                <div class="col-lg-4">
-                    <div>
-                        <img class="position-absolute w-5 h-5" src="{{ asset('frontend/img/Pink Gradient Open Back Salon Business Landscape Poster 2.png') }}" style="object-fit: cover;">
-                    </div>
+    <div class="container py-5">
+        <div class="row justify-content-center bg-appointment mx-0" style="height: 285px;">
+            <div class="col-lg-4">
+                <div>
+                    <img class="position-absolute w-5 h-5" src="{{ asset('frontend/img/Pink Gradient Open Back Salon Business Landscape Poster 2.png') }}" style="object-fit: cover;">
                 </div>
-                 <div class="col-lg-8 py-3">
-                    <div class="p-5 my-5">
-                        <form>
+            </div>
+            <div class="col-lg-8 py-3">
+                <div class="p-5 my-5">
+                    <form>
                         <div class="col-sm-12 mb-5">
                             <h5 class="mb-4" style="color:#fff;font-size: 30px;font-style: italic;">Join Us and Embrace Your Beauty Journey!</h5>
                             <div class="w-100">
@@ -114,12 +115,12 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        </form>
-                    </div>
+
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 @endsection
