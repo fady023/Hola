@@ -9884,7 +9884,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-    padding: 30px 15px;
+    padding: 10px 15px;
     font-weight: 400;
     letter-spacing: 1px;
     color: #211E1C;
@@ -9894,7 +9894,8 @@ h6,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: #d2a4a1;
-    text-decoration-line: underline;
+    border-bottom: 3px solid;
+    border-radius: 4px;
 }
 
 
