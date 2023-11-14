@@ -38,7 +38,6 @@
         @include('frontend.layouts.header-service')
     @endif
 
-  
 
        
     @show

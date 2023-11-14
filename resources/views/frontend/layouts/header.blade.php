@@ -2,7 +2,7 @@
     <div class="container-fluid p-0" style="margin-top: 23px;">
         <nav class="navbar navbar-expand-lg  navbar-light py-3 py-lg-0 px-lg-5" >
            
-                <img src="{{ asset('frontend/img/logo.png') }}" alt="" title="">
+                <a href="/#home" class="nav-item nav-link active"> <img src="{{ asset('frontend/img/logo.png') }}" class="m-0 text-primary" alt="" title=""></a>
             
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
