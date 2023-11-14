@@ -10,14 +10,14 @@
                     <!--<img class="position-absolute w-100 h-100" src="{{ asset('frontend/img/image 3.png') }}" style="object-fit: cover;">-->
                     <video src="{{ asset('frontend/video/Green Beauty Treatment Feed Ad video.mp4') }}" autoplay muted loop style="object-fit: cover;"></video>
 
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <!--<div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-6">
                             <h6 class="mx-md-5 px-5 display-4 text-capitalize mb-3">&nbsp;</h6>
                             <h6 class="mx-md-5 px-5 display-4 text-capitalize mb-3">&nbsp;</h6>
 
                             <h6 class="mx-md-5 px-5 display-4 mb-3" style="color:#fff"><b>We do everything you need in <br>HOLA</b></h6>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
               
             </div>
