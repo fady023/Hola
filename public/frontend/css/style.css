@@ -10146,28 +10146,6 @@ video {
     object-fit: fill; // use "cover" to avoid distortion
     position: absolute;
 }
-@mixin mQ($rem) {
-    @media screen and (min-width: $rem) {
-        @content;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    display: grid;
-    place-items: start;
-    min-height: 100vh;
-    min-height: 100svh;
-    font-family: "Poppins", sans-serif;
-    color: #26273e;
-    padding-block: min(20vh, 3rem);
-    @include mQ(61.25rem) {
-        place-items: center;
-    }
-}
 section {
     /*display: grid;*/
     
