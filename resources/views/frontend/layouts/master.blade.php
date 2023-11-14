@@ -28,7 +28,7 @@
     <link href="{{ asset('frontend/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('frontend/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/css/N1style.css') }}" rel="stylesheet">
 </head>
 
 <body>
