@@ -211,7 +211,7 @@
                 </div>
             </div>
             <div class="col-lg-8 py-3">
-                <div class="p-5 my-5">
+                <div class="p-5 my-5" style="padding-top: 1rem !important;">
                     <form>
                         <div class="col-sm-12 mb-5">
                             <h5 class="mb-4" style="color:#fff;font-size: 30px;font-style: italic;">Join Us and Embrace Your Beauty Journey!</h5>
