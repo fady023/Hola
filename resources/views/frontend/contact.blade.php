@@ -15,6 +15,11 @@
         <div class="col-lg-6">
             <h2 style="color: #d2a4a1;text-align: left;font-style: italic;">
                 Get in touch
+                 <div class="d-flex justify-content-start mt-4" style="margin-top: -2.5rem !important;margin-left: 28.5rem !important;">
+                        <a class="btn btn-lg  btn-lg-square mr-2" href="https://www.instagram.com/hola_beauty_center/?igshid=MzRlODBiNWFlZA%3D%3D"><h4><font color="#cb9e9b"><i class="fab fa-instagram"></i></h4></font> </a>
+                        <a class="btn btn-lg  btn-lg-square " href="https://api.whatsapp.com/send?phone={{ $phone }}&text=%C2%A0"><h4><font color="#cb9e9b"><i  class="fab fa-whatsapp"></i></h4></font></a>
+                       
+                    </div>
             </h2>
             <p style="text-align: left;">
             Are you looking for a specific service? We'd love to hear from you.<br>
@@ -59,7 +64,7 @@
         </div>
       
     </div>
-</div></div><br><br><br>
+</div></div>
 
 
 @endsection
