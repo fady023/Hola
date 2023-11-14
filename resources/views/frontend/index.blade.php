@@ -205,7 +205,7 @@
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="row justify-content-center bg-appointment mx-0" style="height: 285px;">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div>
                     <img class="position-absolute w-5 h-5" src="{{ asset('frontend/img/Pink Gradient Open Back Salon Business Landscape Poster 2.png') }}" style="object-fit: cover;">
                 </div>
