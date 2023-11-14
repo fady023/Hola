@@ -5,7 +5,7 @@
 
 
 <!-- Carousel Start -->
-<div class="container-fluid p-0 mb-5 pb-5" id="home" style="margin-top: 5px;">
+<div class="container-fluid p-0 mb-5 pb-5" id="home" style="margin-top: 0px;">
     <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item position-relative active" style="min-height: 152vh;">
