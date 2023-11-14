@@ -54,7 +54,7 @@
                     <div class="team mb-5">
                         <img class="img-fluid" src="{{url('services/',$Service->image)}}" alt="">
                         <div class="position-relative text-center">
-                            <div class="teamicon-text text-white" style="background-color: #d2a4a1;z-index: 10;">
+                            <div class="teamicon-text text-white" style="background-color: #EDDBD9;z-index: 10;">
                                 <img class="img-fluid" src="{{url('services/',$Service->icon)}}" alt="">
                             </div>
                             <div class="team-text text-white" style="background-color: #ededed;z-index: 10;">
