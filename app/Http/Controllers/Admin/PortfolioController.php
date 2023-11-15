@@ -23,7 +23,7 @@ class PortfolioController extends Controller
     public function create()
     {
         $Services = Service::orderBy('id', 'DESC')->get();
-        return view('admin.Portfolio.create', compact('Services'));
+        return view('admin.portfolio.create', compact('Services'));
     }
 
     public function store(request $request)
